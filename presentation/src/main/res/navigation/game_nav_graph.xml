@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashScreenFragment">
+
+    <fragment
+        android:id="@+id/splashScreenFragment"
+        android:name="com.gameshow.button.presentation.fragments.SplashScreenFragment"
+        android:label="SplashScreenFragment" >
+        <action
+            android:id="@+id/action_splashScreenFragment_to_loginFragment"
+            app:destination="@id/loginFragment"
+            app:popUpTo="@id/splashScreenFragment"
+            app:popUpToInclusive="true"
+            app:enterAnim="@android:anim/fade_in" />
+        <action
+            android:id="@+id/action_splashScreenFragment_to_rulesPrivacyPolicyFragment"
+            app:destination="@id/rulesPrivacyPolicyFragment"
+            app:popUpTo="@id/splashScreenFragment"
+            app:popUpToInclusive="true"
+            app:enterAnim="@android:anim/fade_in"/>
+    </fragment>
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.gameshow.button.presentation.fragments.LoginFragment"
+        android:label="LoginFragment" >
+        <action
+            android:id="@+id/action_loginFragment_to_createAccountFragment"
+            app:destination="@id/createAccountFragment"
+            app:enterAnim="@android:anim/fade_in" />
+        <action
+            android:id="@+id/action_loginFragment_to_lobbyFragment"
+            app:destination="@id/lobbyFragment"
+            app:enterAnim="@android:anim/fade_in" />
+        <action
+            android:id="@+id/action_loginFragment_to_rulesPrivacyPolicyFragment"
+            app:destination="@id/rulesPrivacyPolicyFragment"
+            app:enterAnim="@android:anim/fade_in"/>
+        <action
+            android:id="@+id/action_loginFragment_to_licenseFragment"
+            app:destination="@id/licenseFragment"
+            app:enterAnim="@android:anim/fade_in" />
+    </fragment>
+    <fragment
+        android:id="@+id/createAccountFragment"
+        android:name="com.gameshow.button.presentation.fragments.CreateAccountFragment"
+        android:label="CreateAccountFragment" >
+        <action
+            android:id="@+id/action_createAccountFragment_to_loginFragment"
+            app:destination="@id/loginFragment"
+            app:enterAnim="@android:anim/fade_in" />
+    </fragment>
+    <fragment
+        android:id="@+id/createLobbyFragment"
+        android:name="com.gameshow.button.presentation.fragments.LobbyCreateFragment"
+        android:label="CreateLobbyFragment" >
+        <action
+            android:id="@+id/action_createLobbyFragment_to_lobbyFragment"
+            app:destination="@id/lobbyFragment"
+            app:enterAnim="@android:anim/fade_in" />
+        <action
+            android:id="@+id/action_createLobbyFragment_to_gameAdminFragment"
+            app:destination="@id/gameAdminFragment"
+            app:enterAnim="@android:anim/fade_in" />
+    </fragment>
+    <fragment
+        android:id="@+id/lobbyFragment"
+        android:name="com.gameshow.button.presentation.fragments.LobbyFragment"
+        android:label="LobbyFragment" >
+        <action
+            android:id="@+id/action_lobbyFragment_to_createLobbyFragment"
+            app:destination="@id/createLobbyFragment"
+            app:enterAnim="@android:anim/fade_in" />
+        <action
+            android:id="@+id/action_lobbyFragment_to_loginFragment"
+            app:destination="@id/loginFragment"
+            app:enterAnim="@android:anim/fade_in" />
+        <action
+            android:id="@+id/action_lobbyFragment_to_choiceLobbyFragment"
+            app:destination="@id/choiceLobbyFragment"
+            app:enterAnim="@android:anim/fade_in" />
+    </fragment>
+    <fragment
+        android:id="@+id/lobbyJoinFragment"
+        android:name="com.gameshow.button.presentation.fragments.LobbyJoinFragment"
+        android:label="LobbyJoinFragment" >
+        <action
+            android:id="@+id/action_lobbyJoinFragment_to_gameFragment"
+            app:destination="@id/gameFragment"
+            app:enterAnim="@android:anim/fade_in" />
+        <action
+            android:id="@+id/action_lobbyJoinFragment_to_lobbyFragment"
+            app:destination="@id/lobbyFragment"
+            app:enterAnim="@android:anim/fade_in" />
+    </fragment>
+    <fragment
+        android:id="@+id/choiceLobbyFragment"
+        android:name="com.gameshow.button.presentation.fragments.ChoiceLobbyFragment"
+        android:label="ChoiceLobbyFragment" >
+        <action
+            android:id="@+id/action_choiceLobbyFragment_to_lobbyFragment"
+            app:destination="@id/lobbyFragment"
+            app:enterAnim="@android:anim/fade_in" />
+        <action
+            android:id="@+id/action_choiceLobbyFragment_to_lobbyJoinFragment"
+            app:destination="@id/lobbyJoinFragment"
+            app:enterAnim="@android:anim/fade_in" />
+    </fragment>
+    <fragment
+        android:id="@+id/gameAdminFragment"
+        android:name="com.gameshow.button.presentation.fragments.GameAdminFragment"
+        android:label="GameAdminFragment" >
+        <action
+            android:id="@+id/action_gameAdminFragment_to_lobbyFragment"
+            app:destination="@id/lobbyFragment"
+            app:enterAnim="@android:anim/fade_in" />
+    </fragment>
+    <fragment
+        android:id="@+id/gameFragment"
+        android:name="com.gameshow.button.presentation.fragments.GameFragment"
+        android:label="GameFragment" >
+        <action
+            android:id="@+id/action_gameFragment_to_lobbyFragment"
+            app:destination="@id/lobbyFragment"
+            app:enterAnim="@android:anim/fade_in" />
+    </fragment>
+    <fragment
+        android:id="@+id/rulesPrivacyPolicyFragment"
+        android:name="com.gameshow.button.presentation.fragments.RulesPrivacyPolicyFragment"
+        android:label="RulesPrivacyPolicyFragment" >
+        <action
+            android:id="@+id/action_rulesPrivacyPolicyFragment_to_loginFragment"
+            app:destination="@id/loginFragment"
+            app:enterAnim="@android:anim/fade_in"/>
+    </fragment>
+    <fragment
+        android:id="@+id/licenseFragment"
+        android:name="com.gameshow.button.presentation.fragments.LicenseFragment"
+        android:label="LicenseFragment" >
+        <action
+            android:id="@+id/action_licenseFragment_to_loginFragment"
+            app:destination="@id/loginFragment"
+            app:enterAnim="@android:anim/fade_in"/>
+    </fragment>
+</navigation>

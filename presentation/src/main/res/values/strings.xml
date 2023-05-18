@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">Button Game Show</string>
+    <string name="app_version_name">beta 2.1.1</string>
+
+    <string name="loggin">Loggin…</string>
+    <string name="create_new_account">CREATE NEW ACCOUNT</string>
+    <string name="create_account">CREATE ACCOUNT</string>
+    <string name="name">Name</string>
+    <string name="enter_to_lobby">ENTER TO LOBBY</string>
+    <string name="create_lobby">CREATE LOBBY</string>
+    <string name="start_game">START GAME</string>
+    <string name="give_the_code_to_your_fiends">Give the code to your fiends</string>
+    <string name="enter_code">Enter code</string>
+    <string name="start_round">START ROUND</string>
+    <string name="close_lobby">CLOSE LOBBY</string>
+    <string name="join">JOIN</string>
+    <string name="code">Code</string>
+    <string name="leave_lobby">LEAVE LOBBY</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="do_you_want_to_delete">Do you want to delete %s profile?</string>
+    <string name="maximum_profiles">You have the maximum number of profiles!</string>
+    <string name="create_account_min">Create account</string>
+    <string name="field_is_blank">This field can not be blank</string>
+    <string name="do_you_want_to_finish">Do you want to finish creating your profile? The entered data will be lost.</string>
+    <string name="server_communication_error">Server connectivity error. Contact the server administrator.</string>
+    <string name="code_max_5_character">The code must be five characters long</string>
+    <string name="code_is_invalid">The code is invalid!</string>
+    <string name="do_not_press_again">Do not press the button again. Your vote has been taken into account.</string>
+    <string name="new_round">Another round has started!</string>
+    <string name="do_you_want_to_exit">Are you sure you want to %s the %s? This will disconnect you from the room.</string>
+    <string name="lobby">lobby</string>
+    <string name="game">game</string>
+    <string name="close_lobby_game">The lobby has been closed by the game administrator, expired or an unindicated error occurred!</string>
+    <string name="close">close</string>
+    <string name="leave">leave</string>
+    <string name="close_lobby_game_admin">The lobby has been closed!</string>
+    <string name="visit_us_on">VISIT US ON</string>
+    <string name="github_forceindia">forceindia712</string>
+    <string name="github_Dawiczku">Dawiczku</string>
+    <string name="do_you_want_to_install_app">Do you want to install the %s app?</string>
+    <string name="unable_to_join_lobby">Unable to join the lobby. The game is in progress or there are maximum players in the lobby.</string>
+    <string name="user_join_to_lobby">%s has joined the lobby</string>
+    <string name="user_leave_to_lobby">%s has disconnected from the lobby</string>
+    <string name="internet_connection_false">The application requires an internet connection!</string>
+    <string name="room_has_been_closed">The room has been closed!</string>
+    <string name="remove_from_lobby">Do you want to remove %s from the lobby?</string>
+    <string name="you_kicked_out_of_the_lobby">You have been kicked out of the lobby!</string>
+
+    <string name="terms_of_use_title">Terms of Use</string>
+
+    <string name="terms_of_use_text">
+    Welcome to Game Show App. By using our app, you agree to the following terms and conditions:\n\n
+    1. You may not use our app for any illegal or unauthorized purpose.\n\n
+    2. You may not modify, adapt, or hack our app or modify another website so as to falsely imply that it is associated with our app.\n\n
+    3. You may not transmit any worms or viruses or any code of a destructive nature.\n\n
+    4. We reserve the right to modify or terminate our app for any reason, without notice at any time.\n\n
+    5. You agree to indemnify and hold us harmless from and against any claims, actions, suits, or proceedings, as well as any and all losses, liabilities, damages, costs, and expenses (including reasonable attorneys’ fees) arising out of or in connection with your use of our app.\n\n
+    6. Your use of our app is at your sole risk. The app is provided on an “as is” and “as available” basis. We disclaim all warranties of any kind, whether express or implied, including, but not limited to, the implied warranties of merchantability, fitness for a particular purpose, and non-infringement.\n\n
+    7. In no event shall we be liable for any direct, indirect, incidental, special, consequential, or exemplary damages (including, but not limited to, procurement of substitute goods or services, loss of use, data, or profits, or business interruption) however caused and on any theory of liability, whether in contract, strict liability, or tort (including negligence or otherwise) arising in any way out of the use of our app, even if advised of the possibility of such damage.\n\n
+    By using our app, you agree to these terms and conditions. If you do not agree to these terms and conditions, please do not use our app.
+    </string>
+
+    <string name="privacy_policy_title">Privacy Policy</string>
+
+    <string name="privacy_policy_text">
+    1. Introduction:\n
+    This Privacy Policy explains how we collect, use and disclose your personal information when you use the "Game Show App". By using the app, you agree to the terms of this policy.\n\n
+    2. Collection of Information:\n
+    We may collect personal information such as your nickname and device information when you use the app. We may also collect non-personal information such as your IP address and usage data.\n\n
+    3. Use of Information:\n
+    We may use the information we collect to improve the app, to personalize your experience, to communicate with you, and to provide you with marketing materials.\n\n
+    4. Disclosure of Information:\n
+    We may disclose your personal information to third-party service providers who assist us in providing the app, and to comply with legal requirements.\n\n
+    5. Security:\n
+    We take reasonable measures to protect your personal information from unauthorized access or disclosure. However, we cannot guarantee the security of your information.\n\n
+    6. Changes to this Policy:\n
+    We may modify this Privacy Policy at any time. If we make any changes, we will notify you through the app. Your continued use of the app after the changes will be deemed as your acceptance of the modified policy.\n\n
+    7. Contact:\n
+    If you have any questions about this Privacy Policy, please contact us at gameshowappcontact@gmail.com.
+    </string>
+    <string name="i_accept_the_privacy_policy_and_regulations">I ACCEPT THE PRIVACY POLICY AND REGULATIONS</string>
+    <string name="i_do_not_accept">I DO NOT ACCEPT</string>
+    <string name="do_not_accept">DO NOT ACCEPT</string>
+    <string name="settings">Settings</string>
+    <string name="licenses">Licenses</string>
+    <string name="regulations_and_privacy_policy">Regulations and privacy policy</string>
+    <string name="application_information">Application information</string>
+    <string name="flaticon_license_number_user95142345">flaticon license - number user95142345</string>
+    <string name="application_logo">Application logo</string>
+    <string name="license">License</string>
+    <string name="avatars">Avatars</string>
+    <string name="multiavatar_open_licence">Multiavatar open licence</string>
+    <string name="information">Information</string>
+
+
+</resources>
